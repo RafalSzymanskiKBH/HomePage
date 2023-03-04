@@ -1,0 +1,120 @@
+.section__listItem {
+    margin: 10px auto;
+    background-color: #eee;
+    border-radius: 10px;
+
+}
+
+.section__listItem:hover {
+    background-color: #ddd;
+
+}
+
+.section__list {
+    padding-left: 40px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+
+.section__pictureGym {
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px 0px rgba(0, 0, 0, 0.42),
+        5px -5px 5px 0px rgba(0, 0, 0, 0.82);
+
+}
+
+.section__pictureCar {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px 0px rgba(0, 0, 0, 0.42),
+        5px -5px 5px 0px rgba(0, 0, 0, 0.82);
+}
+
+.section__paragraph {
+    color: #00008b;
+}
+
+
+
+.section__buttonPicture {
+    color: #ddd;
+    text-decoration: none;
+    background-color: #0e0e0ecd;
+    border-radius: 10px;
+    margin: 10px;
+    text-shadow: 1px 2px 5px #eee;
+    font-size: 24px;
+    padding: 0 30px;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+}
+
+.section__buttonPicture:hover {
+    color: #0000d7;
+    outline: none;
+}
+
+.section__buttonPicture:active {
+    color: #0000ff;
+}
+
+
+.section__buttonBack {
+    color: #ddd;
+    text-decoration: none;
+    background-color: #0e0e0ecd;
+    border-radius: 10px;
+    margin: 10px;
+    text-shadow: 1px 2px 5px #eee;
+    font-size: 24px;
+    padding: 0 30px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+}
+
+.section__buttonBack:hover {
+    color: #0000d7;
+    outline: none;
+}
+
+.section__buttonBack:active {
+    color: #0000ff;
+}
+
+.section__header {
+    text-shadow: 1px 2px 5px #1c1cfeda;
+    font-size: 36px;
+    text-align: left;
+
+}
+
+.section__headerSportH3 {
+    text-shadow: 1px 2px 5px #1c1cfeda;
+    font-size: 24px;
+    text-align: left;
+
+}
+
+.section {
+    font-size: 16px;
+    background-color: #e7e7e7;
+    border-width: 3px;
+    border-color: #e7e7e7;
+    border-style: inset;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px;
+    line-height: 2;
+    max-width: 1000px;
+}
+
+
+.js--changePicture {
+    display: none;
+}

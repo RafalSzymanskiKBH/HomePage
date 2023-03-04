@@ -1,0 +1,65 @@
+.table__gym {
+    background-color: #e7e7e7;
+    color: #00008b;
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__cell {
+    border: 2px solid #0e0e0ecd;
+    padding: 15px;
+    text-align: center;
+}
+
+.table__header {
+    background-color: #0e0e0eb7;
+    color: #e7e7e7da;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__row:nth-child(even) {
+    background: #fff;
+}
+
+.table__row:hover {
+    background-color: #ddd;
+}
+
+.table__caption {
+    padding: 10px;
+    text-align: right;
+    font-size: 15px;
+    caption-side: bottom;
+    margin: 10px;
+}
+
+.table__button {
+    color: #ddd;
+    text-decoration: none;
+    background-color: #0e0e0ecd;
+    border-radius: 10px;
+    margin: 10px;
+    text-shadow: 1px 2px 5px #eee;
+    font-size: 24px;
+    padding: 0 30px;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+}
+
+.table__button:hover {
+    color: #0000d7;
+    outline: none;
+}
+
+.table__button:active {
+    color: #0000ff;
+}
+
+.js--changeTable {
+    display: none;
+}

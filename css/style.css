@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    color: #0e0e0ecd;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.cs--dark {
+    background: #0e0e0ecd;
+}
+
+.button {
+    cursor: pointer;
+}
