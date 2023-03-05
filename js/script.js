@@ -28,5 +28,5 @@ navigation__dark.addEventListener("click", () => {
     body.classList.toggle("cs--dark");
 
     changeDark.innerText =
-        (body.classList.contains("dark")) ? "jasny" : "ciemny";
+        (body.classList.contains("cs--dark")) ? "jasny" : "ciemny";
 });
