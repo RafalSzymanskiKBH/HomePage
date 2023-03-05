@@ -101,7 +101,7 @@
 
 }
 
-.section {
+.sectionSport {
     font-size: 16px;
     background-color: #e7e7e7;
     border-width: 3px;
@@ -113,6 +113,20 @@
     line-height: 2;
     max-width: 1000px;
     background-image: url("../images/background\ sport.png")
+}
+
+.sectionCar {
+    font-size: 16px;
+    background-color: #e7e7e7;
+    border-width: 3px;
+    border-color: #e7e7e7;
+    border-style: inset;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px;
+    line-height: 2;
+    max-width: 1000px;
+    background-image: url("../images/background\ car.png")
 }
 
 
