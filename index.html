@@ -9,7 +9,7 @@
     <link rel="icon" href="images/icon.png">
     <meta property="og:image" content="images/share.png">
     <link href="css/style.css" rel="stylesheet">
-    <href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script defer src="js/script.js"></script>
@@ -26,7 +26,8 @@
 
 <body class="body">
     <header class="header" id="buttonBack">
-        <h1>Rafal Szymański - Moje zainteresowania</h1>
+        <img class="header__pictureSport" src="images/rafal.jpg" alt="Zdjecie z fitness">
+        <h1 class="header__header">Rafal Szymański - Moje zainteresowania</h1>
     </header>
     <nav class="navigation">
 
@@ -38,10 +39,7 @@
     </nav>
     <main>
         <section class="sectionSport" id="Sport">
-            <h2 class="section__header">Sport</h2>
-
-            <img class="section__pictureGym" src="images/rafal.jpg" alt="Moje zdjecie z treningu">
-
+            <h2 class="section__headerSport">Sport</h2>
             <p><b>Lubie sport.</b> Chodze na siłownie. <strong>Trenuje</strong> głownie siłowo. Mój plan treningowy to
                 split czyli trening dzielony.
                 <strong>Trenuje</strong> z przerwami juz około 10 lat z wiekszymi lub miejszymi
@@ -116,24 +114,18 @@
 
         </section>
         <section class="sectionCar" id="Samochody">
-            <h2 class="section__header">Samochody</h2>
-            <img class="section__pictureCar" src="images/auto.jpg" alt="Zdjecie z autem">
-            <p> <span class="section__paragraph">Moja pasja od dawna jest motoryzacja.</span> Pasjonuja mnie japonskie
+        <h2 class="section__headerCar">Samochody  <img class="section__pictureCar" src="images/auto.jpg" alt="Zdjecie z autem"></h2>
+        <p> <span class="section__paragraph">Moja pasja od dawna jest motoryzacja.</span> Pasjonuja mnie japonskie
                 auta sportowe. Takie jak <em>Toyota MR2 , Toyota Supra, Subaru Impreza WRC, Honda S2000 itp.</em>
                 Od niedawna zaciekawiła mnie <i>elektromobilność</i>. Od jakigo czasu jestem posiadaczem auta
                 elektrycznego i sobie bardzo chwale to rozwiazanie.
-                Nie jest idealne w długie podróze ale w miescie i okolicach jest to perfekcyjne.
-
-            </p>
+                Nie jest idealne w długie podróze ale w miescie i okolicach jest to perfekcyjne.</p>
             <a class="section__buttonBack" href="#buttonBack">Wstecz</a>
         </section>
-
-
     </main>
 
     <footer class="footer" id="Kontakt">
-        <p>Kontakt: <a class="footer--mail" href="mailto:rafiskce@gmail.com">rafiskce@gmail.com</a>
-        </p>
+        <p>Kontakt: <a class="footer--mail" href="mailto:rafiskce@gmail.com">rafiskce@gmail.com</a></p>
         <p>Copyright 2023 by Rafal - Wszystkie prawa zastrzezone</p>
     </footer>
 

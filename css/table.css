@@ -1,5 +1,5 @@
 .table__gym {
-    background-color: #e7e7e7;
+    background-color: #e7e7e720;
     color: #00008b;
     overflow-x: auto;
 }
@@ -27,7 +27,7 @@
 }
 
 .table__row:hover {
-    background-color: #ddd;
+    background-color: #dddddd1c;
 }
 
 .table__caption {

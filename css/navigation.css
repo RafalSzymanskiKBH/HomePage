@@ -1,7 +1,7 @@
 .navigation {
-    background-color: #0e0e0ecd;
+    background-color: #0e0e0e52;
     border-width: 3px;
-    border-color: #10101076;
+    border-color: #1010102c;
     border-style: solid;
     border-radius: 10px;
     margin: 10px auto;
@@ -18,7 +18,7 @@
     text-decoration: none;
     background-color: #0e0e0ecd;
     border-radius: 10px;
-    padding: 0 30px;
+    padding: 5px 30px;
 }
 
 .navigation__link:hover {
@@ -39,7 +39,7 @@
     margin: 10px;
     text-shadow: 1px 2px 5px #ffffff;
     font-size: 24px;
-    padding: 0 30px;
+    padding: 5px 10px;
     font-family: "Lato", sans-serif;
     cursor: pointer;
     max-width: 200px;

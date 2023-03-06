@@ -1,29 +1,22 @@
 .section__listItem {
-    margin: 10px auto;
-    background-color: #eee;
+    margin: 5px auto;
+    background-color: #eeeeee17;
     border-radius: 10px;
 
 }
 
 .section__listItem:hover {
-    background-color: #ddd;
+    background-color: #000000;
 
 }
 
 .section__list {
     padding-left: 40px;
-    margin: 10px auto;
+    margin: 5px auto;
     border-radius: 10px;
+    
 }
 
-
-.section__pictureGym {
-    max-width: 200px;
-    border-radius: 10px;
-    box-shadow: 10px 5px 10px 0px rgba(0, 0, 0, 0.42),
-        5px -5px 5px 0px rgba(0, 0, 0, 0.82);
-
-}
 
 .section__pictureCar {
     width: 100%;
@@ -31,10 +24,11 @@
     border-radius: 10px;
     box-shadow: 10px 5px 10px 0px rgba(0, 0, 0, 0.42),
         5px -5px 5px 0px rgba(0, 0, 0, 0.82);
+    margin: 10px;
 }
 
 .section__paragraph {
-    color: #00008b;
+    color: #a1a1ff;
 }
 
 
@@ -63,6 +57,7 @@
 
 
 .section__buttonBack {
+
     color: #ddd;
     text-decoration: none;
     background-color: #0e0e0ecd;
@@ -87,18 +82,25 @@
     color: #0000ff;
 }
 
-.section__header {
+.section__headerCar{
     text-shadow: 1px 2px 5px #1c1cfeda;
     font-size: 36px;
-    text-align: left;
-
+    margin: 10px 20px;
+    text-align: center;
 }
+
+.section__headerSport {
+    text-shadow: 1px 2px 5px #1c1cfeda;
+    font-size: 36px;
+    text-align: center;
+    margin: 10px 20px;
+}
+
 
 .section__headerSportH3 {
     text-shadow: 1px 2px 5px #1c1cfeda;
     font-size: 24px;
-    text-align: left;
-
+    text-align: center;
 }
 
 .sectionSport {
@@ -109,13 +111,18 @@
     border-style: inset;
     border-radius: 10px;
     margin: 10px auto;
-    padding: 20px;
+    padding: 0 20px;
     line-height: 2;
     max-width: 1000px;
-    background-image: url("../images/background\ sport.png")
+    background-image: url("../images/background\ sport.png");
+    text-align: justify;
+    color: #ddd;
+
+    
 }
 
 .sectionCar {
+    display: flex;
     font-size: 16px;
     background-color: #e7e7e7;
     border-width: 3px;
@@ -123,10 +130,16 @@
     border-style: inset;
     border-radius: 10px;
     margin: 10px auto;
-    padding: 20px;
+    padding: 0 20px;
     line-height: 2;
     max-width: 1000px;
-    background-image: url("../images/background\ car.png")
+    background-image: url("../images/background\ car.png");
+    color: #ddd;
+    text-align: justify;
+    align-items: normal;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
 
 

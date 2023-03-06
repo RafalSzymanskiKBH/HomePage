@@ -5,7 +5,7 @@ let table__button = document.querySelector(".table__button");
 let navigation__dark = document.querySelector(".navigation__dark");
 let body = document.querySelector(".body");
 let table__gym = document.querySelector(".table__gym");
-let section__pictureGym = document.querySelector(".section__pictureGym");
+let header__pictureSport = document.querySelector(".header__pictureSport");
 let changeDark = document.querySelector(".changeDark");
 let changeTable = document.querySelector(".changeTable");
 let changePicture = document.querySelector(".changePicture");
@@ -19,10 +19,10 @@ table__button.addEventListener("click", () => {
 });
 
 section__buttonPicture.addEventListener("click", () => {
-    section__pictureGym.classList.toggle("js--changePicture");
+    header__pictureSport.classList.toggle("js--changePicture");
 
     changePicture.innerText =
-        (section__pictureGym.classList.contains("js--changePicture")) ? "Otworz" : "Usun";
+        (header__pictureSport.classList.contains("js--changePicture")) ? "Otworz" : "Usun";
 });
 navigation__dark.addEventListener("click", () => {
     body.classList.toggle("cs--dark");
