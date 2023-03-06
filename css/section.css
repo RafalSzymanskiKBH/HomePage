@@ -116,7 +116,7 @@
     max-width: 1000px;
     background-image: url("../images/background\ sport.png");
     text-align: justify;
-    color: #ddd;
+    color: #ffffff;
 
     
 }
@@ -134,7 +134,7 @@
     line-height: 2;
     max-width: 1000px;
     background-image: url("../images/background\ car.png");
-    color: #ddd;
+    color: #ffffff;
     text-align: justify;
     align-items: normal;
     justify-content: space-between;
