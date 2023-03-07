@@ -1,14 +1,14 @@
 console.log("Czesc!");
 
-let section__buttonPicture = document.querySelector(".section__buttonPicture");
-let table__button = document.querySelector(".table__button");
-let navigation__dark = document.querySelector(".navigation__dark");
-let body = document.querySelector(".body");
-let table__gym = document.querySelector(".table__gym");
-let header__pictureSport = document.querySelector(".header__pictureSport");
-let changeDark = document.querySelector(".changeDark");
-let changeTable = document.querySelector(".changeTable");
-let changePicture = document.querySelector(".changePicture");
+const section__buttonPicture = document.querySelector(".section__buttonPicture");
+const table__button = document.querySelector(".table__button");
+const navigation__dark = document.querySelector(".navigation__dark");
+const body = document.querySelector(".body");
+const table__gym = document.querySelector(".table__gym");
+const header__pictureSport = document.querySelector(".header__pictureSport");
+const changeDark = document.querySelector(".changeDark");
+const changeTable = document.querySelector(".changeTable");
+const changePicture = document.querySelector(".changePicture");
 
 table__button.addEventListener("click", () => {
     table__gym.classList.toggle("js--changeTable");
