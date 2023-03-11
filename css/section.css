@@ -115,6 +115,7 @@
     line-height: 2;
     max-width: 1000px;
     background-image: url("../images/background\ sport.png");
+    background-size: cover;
     text-align: justify;
     color: #ffffff;
 
@@ -134,6 +135,7 @@
     line-height: 2;
     max-width: 1000px;
     background-image: url("../images/background\ car.png");
+    background-size: cover;
     color: #ffffff;
     text-align: justify;
     align-items: normal;
