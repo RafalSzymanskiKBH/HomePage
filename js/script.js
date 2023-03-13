@@ -1,5 +1,9 @@
-   console.log("Czesc!");
 {
+    const welcome = () => {
+        console.log("Czesc!");
+    };
+
+
     const toggleBackground = () => {
         const body = document.querySelector(".js-body");
         const changeDark = document.querySelector(".js-changeDark");
@@ -26,7 +30,7 @@
 
         changePicture.innerText =
             (header__pictureSport.classList.contains("js--changePicture")) ? "Otworz" : "Usun";
-        
+
     };
 
     const init = () => {
@@ -37,7 +41,8 @@
         const section__buttonPicture = document.querySelector(".js--section__buttonPicture");
         section__buttonPicture.addEventListener("click", togglePicture);
     };
-
+    
+    welcome();
     init();
-
+    
 }

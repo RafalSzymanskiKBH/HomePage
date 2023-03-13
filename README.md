@@ -6,7 +6,7 @@ https://rafalszymanskikbh.github.io/HomePage/
 This website presents some of the information about **Me Hobby , Sport, Cars**. Webside have also Dark and Light Mode.
 
 ## Website preview
-![Gif](/images/website-gif.gif)
+![](/images/website-gif.gif)
 
 ## Features i used in this project
 
