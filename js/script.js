@@ -14,8 +14,8 @@
     };
 
     const toggleTable = () => {
-        const table__gym = document.querySelector(".js--table__gym");
-        const changeTable = document.querySelector(".js--changeTable");
+        const table__gym = document.querySelector(".js-table__gym");
+        const changeTable = document.querySelector(".js-changeTable");
 
         table__gym.classList.toggle("js--changeTable");
 
@@ -24,9 +24,9 @@
     };
 
     const togglePicture = () => {
-        const header__pictureSport = document.querySelector(".js--header__pictureSport");
-        const changePicture = document.querySelector(".js--changePicture");
-        header__pictureSport.classList.toggle("js--changePicture");
+        const header__pictureSport = document.querySelector(".js-header__pictureSport");
+        const changePicture = document.querySelector(".js-changePicture");
+        header__pictureSport.classList.toggle(".js--changePicture");
 
         changePicture.innerText =
             (header__pictureSport.classList.contains("js--changePicture")) ? "Otworz" : "Usun";
@@ -34,11 +34,11 @@
     };
 
     const init = () => {
-        const navigation__dark = document.querySelector(".js--navigation__buttonDark");
+        const navigation__dark = document.querySelector(".js-navigation__buttonDark");
         navigation__dark.addEventListener("click", toggleBackground);
-        const table__button = document.querySelector(".js--table__button");
+        const table__button = document.querySelector(".js-table__button");
         table__button.addEventListener("click", toggleTable);
-        const section__buttonPicture = document.querySelector(".js--section__buttonPicture");
+        const section__buttonPicture = document.querySelector(".js-section__buttonPicture");
         section__buttonPicture.addEventListener("click", togglePicture);
     };
     
