@@ -26,6 +26,7 @@
     const togglePicture = () => {
         const header__pictureSport = document.querySelector(".js-header__pictureSport");
         const changePicture = document.querySelector(".js-changePicture");
+
         header__pictureSport.classList.toggle(".js--changePicture");
 
         changePicture.innerText =
